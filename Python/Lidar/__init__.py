@@ -1,7 +1,8 @@
-
+import datetime
 import os
 import ydlidar 
 import time
+import numpy as np
 
 
 class Lidar:
@@ -15,10 +16,14 @@ class Lidar:
         self.x =[]
         self.y =[]
 
+        #parameter for return data from lidar 
+        
         self.Get_port();
         self.Parameters();
         self.Initialize_SDK();
-    
+        
+
+
 
 #This function detects for a Lidar connected through usb
     def Get_port(self):
@@ -80,15 +85,26 @@ class Lidar:
             while self.ret and ydlidar.os_isOk():
                 r = self.laser.doProcessSimple(self.scan);
                 if r:
-                    angle =[]
-                    range =[]
+                    angle = []
+                    range = []
                     for point in self.scan.points:
                         angle.append(point.angle)
-                        range.append(point.range)    
+                        range.append(point.range)
 
-                    
+                    anglenp = np.array(angle)
+                    rangenp = np.array(range)
+
+                    x = rangenp * np.cos(anglenp)
+                    y = rangenp * np.sin(anglenp)
+
+                    return x,y
+
                 else:
                     print("Failed to get Lidar Data")
             
             #turn off Laser
             self.laser.turnOff();
+
+
+
+Lidar();
