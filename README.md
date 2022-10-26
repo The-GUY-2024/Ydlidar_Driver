@@ -7,8 +7,9 @@ ydlidar Handler or sdk simplifier
 
 ## FlowChart 
 
-
-https://docs.google.com/viewer?url=${https://github.com/The-GUY-2024/Ydlidar_Driver/blob/main/Lidar%20flowchart.pdf}
-
+<img 
+  src='blob:null/e5ea3eae-6ced-49bb-9a29-79e937cd677e'
+  alt="Alt text' 
+  style="max-width: 300px ">
 
 flowchart for a deep understanding on how is this handler is structure
