@@ -10,4 +10,6 @@ ydlidar Handler or sdk simplifier
   <img src="https://raw.githubusercontent.com/The-GUY-2024/Ydlidar_Driver/main/img/Lidar_flowchart.PNG" width="350" />
   
 </p>
-flowchart for a deep understanding on how the library is structure
+<p align="center">
+  flowchart for a deep understanding on how the library is structure
+</p>
