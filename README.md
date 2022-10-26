@@ -7,7 +7,7 @@ ydlidar Handler or sdk simplifier
 
 ## FlowChart 
 <p align="center">
-  <img src="" width="350 />
+  <img src="https://raw.githubusercontent.com/The-GUY-2024/Ydlidar_Driver/main/Lidar_flowchart.PNG" width="350 />
   
 </p>
 flowchart for a deep understanding on how is this handler is structure
