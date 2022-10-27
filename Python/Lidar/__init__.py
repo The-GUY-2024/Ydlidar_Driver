@@ -21,7 +21,7 @@ class Lidar:
         self.Get_port();
         self.Parameters();
         self.Initialize_SDK();
-        
+        self.Extract_Data();
 
 
 
@@ -68,11 +68,9 @@ class Lidar:
             #Turn lidar Laser on
             self.ret = self.laser.turnOn();
             #Get Laser Scan Data Raw
-            self.scan =ydlidar.LaserScan(); 
+            self.scan = ydlidar.LaserScan(); 
             
 
-            #Start extracting data
-            self.Extract_Data();
             
         time.sleep(0.0275)
 #Disconnect lidar from program
@@ -96,7 +94,7 @@ class Lidar:
 
                     x = rangenp * np.cos(anglenp)
                     y = rangenp * np.sin(anglenp)
-
+                    print(len(x))
                     return x,y
 
                 else:
@@ -105,6 +103,3 @@ class Lidar:
             #turn off Laser
             self.laser.turnOff();
 
-
-
-Lidar();
