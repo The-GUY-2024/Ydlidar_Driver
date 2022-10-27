@@ -10,6 +10,17 @@ pip3 install .
 ```
 
 ### After installation 
+
 <p align="center">
-  <img src=""  width="450"/>
+  <img src="https://raw.githubusercontent.com/The-GUY-2024/Ydlidar_Driver/main/img/Installation.png"  width="450"/>
+  
+  SUCCESSFULL INSTALLATION!
+
+</p>
+
+
+### TEST 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/The-GUY-2024/Ydlidar_Driver/main/img/Python.png" width="450" />
 </p>
