@@ -10,7 +10,7 @@ Simplifiying the use of the ydlidar sdk
 # Build sdk using install_sdk.sh
  
 ```
-git clone https://github.com/The-GUY-2024/Ydlidar_Driver/edit/main/README.md
+git clone https://github.com/The-GUY-2024/Ydlidar_Driver
 ```
 
 ``` 
