@@ -27,11 +27,15 @@ sudo pip3 install .
 
 cd ..
 
+
+#installing the sdk 
 git clone https://github.com/YDLIDAR/YDLidar-SDK.git
 
-mkdir build && cd build
+cd YDLidar-SDK
 
-sudo cmkae ..
+sudo mkdir build && cd build
+
+sudo cmake ..
 
 make 
 
@@ -41,3 +45,6 @@ cd ..
 
 sudo pip3 install .
 
+cd python/examples
+
+python3 test.py
