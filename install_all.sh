@@ -16,6 +16,10 @@ echo -e $TEXT_YELLOW
 echo 'APT upgrade finished.... '
 echo -e $TEXT_RESET
 
+sudo apt-get install cmake make pkg-config
+echo -e $TEXT_YELLOW
+echo -e 'APT INSTALL FINISHED....'
+echo -e $TEXT_RESET
 
 DIR=$(dirname $0)
 
