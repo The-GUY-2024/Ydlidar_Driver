@@ -16,7 +16,7 @@ echo -e $TEXT_YELLOW
 echo 'APT upgrade finished.... '
 echo -e $TEXT_RESET
 
-sudo apt-get install cmake make pkg-config
+sudo apt-get install cmake make pkg-config python3 swig python3-dev python3-pip
 echo -e $TEXT_YELLOW
 echo -e 'APT INSTALL FINISHED....'
 echo -e $TEXT_RESET
