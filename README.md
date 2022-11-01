@@ -10,7 +10,7 @@ Simplifiying the use of the ydlidar sdk
 ## Build sdk using install_sdk.sh
  
 
-## FlowChart 
+# FlowChart 
 <p align="center">
   <img src="https://raw.githubusercontent.com/The-GUY-2024/Ydlidar_Driver/main/img/Lidar_flowchart.PNG" width="350" />
   
