@@ -9,6 +9,17 @@ Simplifiying the use of the ydlidar sdk
 
 # Build sdk using install_sdk.sh
  
+```
+git clone https://github.com/The-GUY-2024/Ydlidar_Driver/edit/main/README.md
+```
+
+``` 
+cd Ydlidar_Driver
+```
+
+```
+sudo chmod +x install_all.sh && sudo ./install_all.sh
+```
 
 
 
